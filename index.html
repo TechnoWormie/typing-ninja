@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Ninja</title>
+</head>
+<body>
+ <main>
+        <div>
+            <h1 id="typing"></h1>
+                <p class="text-pri">Type The Below Red Colored Words Within <span id="seconds">3</span> Seconds</p>
+                <h2 class="heading-sec" id="current-word">Hello</h2>
+                <input type="text" id="word-input" placeholder="Start Typing...">
+                <h4 id="message">Ready !</h4>
+        </div>
+
+        <div class="time-score">
+                <h3 class="heading-ter sec">Time Left : <span id="time">0</span></h3>
+                <h3 class="heading-ter sco">Score : <span id="score">0</span></h3>
+                
+        </div>
+
+        <div class="btns">
+            <a href="javascript:void(0)" onclick="init()">START</a>
+            <a href="javascript:void(0)" onclick="playAgain()">PLAY AGAIN</a>
+        </div>
+        
+        <h3 class="instruct">&#9734; To Score Type The Given Words Within <strong>3</strong> Seconds. To Play Hit The <strong>START</strong> Button. To Play Again, Hit The <strong>PLAY AGAIN</strong> Button &amp; Hit <strong>START.</strong></h3>
+
+        <p class="snippet">Made With <span style="color: red">&#9829;</span> By KKC </p>
+
+</main>
+</body>
+<script src="app.js"></script>
+</html>
